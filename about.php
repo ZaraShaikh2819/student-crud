@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Index Page</title>
+    <title>About Page of Student Crud</title>
 </head>
 
 <body>
