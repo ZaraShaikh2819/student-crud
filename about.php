@@ -93,7 +93,7 @@
                     <center>
                         <p font-size="40"><a href="about.php" class="link-success link-underline-light"> About Us</a>
                         </p>
-                        <a class="nav-link" href="form.php"><button type="button" class="btn btn-primary">Add
+                        <a class="nav-link" href="login.php"><button type="button" class="btn btn-primary">Add
                                 Student</button></a>
                     </center>
                 </div>
