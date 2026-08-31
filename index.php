@@ -23,7 +23,7 @@
         </div>
     </nav>
     <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
+        <div class="carousel-indicators p-10">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
@@ -58,9 +58,10 @@
             <span class="visually-hidden">Next</span>
         </button>
         <br><br>
+        <br><br>
         <div class="card mb-3" style="max-width: 1250px;">
             <div class="row g-0">
-                <div class="col-md-8">
+                <div class="col-md-8 p-30">
                     <img src="uploads/2.jpg" class="img-fluid rounded-start" alt="..." height="200">
                 </div>
                 <div class="col-md-4">
@@ -105,15 +106,30 @@
             <div class="col-md-4">
                 <img src="uploads/logo.svg" class="img-fluid rounded-start" alt="..." height="400">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 float-md-none">
                 <div class="card-body">
-                    <p><a href="#" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Secondary link</a></p>
-                    <p><a href="#" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Secondary link</a></p>
+                    <center>
+                        <p font-size="40"><a href="index.php" class="link-success link-underline-light"> Home</a>
+                        </p>
+                    </center>
+                    <center>
+                        <p font-size="40"><a href="about.php" class="link-success link-underline-light"> About Us</a>
+                        </p>
+                        <a class="nav-link" href="about.php"><button type="button" class="btn btn-primary">Add
+                                Student</button></a>
+                    </center>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card-body">
-
+                    <center>
+                        <p font-size="20">
+                            <b>Address :-<i> Harvard University<br>
+                                    Cambridge, MA 02138</i><br>
+                                Email :- harvard.edu@gmail.com<br>
+                                Contact Number :- 617-495-1000</b><br>
+                        </p>
+                    </center>
                 </div>
             </div>
         </div>
