@@ -8,6 +8,7 @@ $total = mysqli_query($conn, "SELECT * FROM students");
         <th>ID</th>
         <th>Name</th>
         <th>Email</th>
+        <th>Phone Number</th>
         <th>Course</th>
         <th>Photo</th>
         <th>Edit</th>
@@ -18,6 +19,7 @@ $total = mysqli_query($conn, "SELECT * FROM students");
             <td><?php echo $row["id"]; ?></td>
             <td><?php echo $row["name"]; ?></td>
             <td><?php echo $row["email"]; ?></td>
+            <td><?php echo $row["phno"]; ?></td>
             <td><?php echo $row["course"]; ?></td>
             <td><img src="uploads/<?php echo $row["photo"]; ?>" width="80" height="80"></td>
             <td><a href="edit.php?id=<?php echo $row["id"]; ?>">Edit</a></td>
