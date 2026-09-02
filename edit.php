@@ -9,6 +9,7 @@ $row = mysqli_fetch_assoc($result);
     <input type="hidden" name="id" value="<?php echo $row["id"]; ?>">
     Name : <input type="text" name="name" value="<?php echo $row["name"]; ?>">
     Email : <input type="email" name="email" value="<?php echo $row["email"]; ?>">
+    Phone Number : <input type="number" name="phno" value="<?php echo $row["phno"]; ?>">
     Course : <input type="text" name="course" value="<?php echo $row["course"]; ?>">
     Photo : <input type="file" name="photo" value="<?php echo $row["photo"]; ?>">
 </form>
