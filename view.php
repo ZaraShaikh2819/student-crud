@@ -9,7 +9,6 @@ $total = mysqli_query($conn, "SELECT * FROM students");
         <th>Name</th>
         <th>Email</th>
         <th>Course</th>
-        <th>Mark</th>
         <th>Photo</th>
         <th>Edit</th>
         <th>Delete</th>
@@ -20,7 +19,6 @@ $total = mysqli_query($conn, "SELECT * FROM students");
             <td><?php echo $row["name"]; ?></td>
             <td><?php echo $row["email"]; ?></td>
             <td><?php echo $row["course"]; ?></td>
-            <td><?php echo $row["marks"]; ?></td>
             <td><img src="uploads/<?php echo $row["photo"]; ?>" width="80" height="80"></td>
             <td><a href="edit.php?id=<?php echo $row["id"]; ?>">Edit</a></td>
             <td><a href="delete.php?id<?php echo $row["id"]; ?>">Delete</a></td>
