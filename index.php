@@ -147,35 +147,85 @@
     </div>
     <div class="card mb-12" style="max-width: 1250px;">
         <div class="row g-0">
-            <div class="col-md-4">
-                <img src="uploads/logo.svg" class="img-fluid rounded-start" alt="..." height="400">
-            </div>
-            <div class="col-md-4 float-md-none">
-                <div class="card-body">
-                    <center>
-                        <p font-size="40"><a href="index.php" class="link-success link-underline-light"> Home</a>
-                        </p>
-                    </center>
-                    <center>
-                        <p font-size="40"><a href="about.php" class="link-success link-underline-light"> About Us</a>
-                        </p>
-                        <a class="nav-link" href="login.php"><button type="button" class="btn btn-primary">Add
-                                Student</button></a>
-                    </center>
+            <footer class="bg-dark text-white py-4">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-4 float-end">
+                            <center>
+                                <h1><b>Security Brand</b></h1>
+                                <p font-size="40"><a href="#" class="link-light link-underline-dark">
+                                        Report Copyright Infigiment</a>
+                                </p>
+                                <p font-size="40"><a href="#" class="link-light link-underline-dark">
+                                        Report Security Issue</a>
+                                </p>
+                                <p font-size="40"><a href="#" class="link-light link-underline-dark">
+                                        Trade Mark Notice</a>
+                                </p>
+                        </div>
+                        </center>
+                        <div class="col-md-4 float-end">
+                            <center>
+                                <h1><b>Website</b></h1>
+                                <p font-size="40"><a href="#" class="link-light link-underline-dark">
+                                        Accessibility</a>
+                                </p>
+                                <p font-size="40"><a href="#" class="link-light link-underline-dark">
+                                        Digital Accessibility</a>
+                                </p>
+                                <p font-size="40"><a href="#" class="link-light link-underline-dark">
+                                        Privacy Statement</a>
+                                </p>
+                        </div>
+                        </center>
+                        <div class="col-md-4 float-end">
+                            <center>
+                                <h1><b>Get In Touch</b></h1>
+                                <p font-size="40"><a href="#" class="link-light link-underline-dark">
+                                        Contact Harvard</a>
+                                </p>
+                                <p font-size="40"><a href="#" class="link-light link-underline-dark">
+                                        Maps and Direction</a>
+                                </p>
+                                <p font-size="40"><a href="#" class="link-light link-underline-dark">
+                                        Jobs</a>
+                                </p>
+                        </div>
+                        </center><br><br><br>
+                        <div class="col-md-4 float-end">
+                            <center>
+                                <p class="secondary">Copyright © 2026 The President and Fellows of Harvard College</p>
+                            </center>
+                        </div>
+                        <div class="col-md-4">
+                            <center>
+                                <img src="uploads/logo.png" width="250">
+                            </center>
+                        </div>
+                        <div class="col-md-4">
+
+
+                            <h5>Quick Links</h5>
+
+                            <div class="card-body">
+
+                                <p font-size="40" class="deco"><a href="index.php"
+                                        class="link-light link-underline-dark">
+                                        Home</a>
+                                </p>
+
+
+                                <p font-size="40"><a href="about.php" class="link-light link-underline-dark">
+                                        About Us</a>
+                                </p>
+                                <a class="nav-link" href="login.php"><button type="button" class="btn btn-danger">Add
+                                        Student</button></a>
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card-body">
-                    <center>
-                        <p font-size="20">
-                            <b>Address :-<i> Harvard University<br>
-                                    Cambridge, MA 02138</i><br>
-                                Email :- harvard.edu@gmail.com<br>
-                                Contact Number :- 617-495-1000</b><br>
-                        </p>
-                    </center>
-                </div>
-            </div>
+            </footer>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
