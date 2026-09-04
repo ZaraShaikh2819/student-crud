@@ -4,112 +4,219 @@
 <head>
     <title>About Page of Student Crud</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav class="navbar bg-body-tertiary ">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="uploads/logo.svg" alt="Bootstrap" height="50">
+    <nav class="navbar nav-about bg-body-primary">
+        <div class="container shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+            <a class="navbar nav-link" href="#">
+                <img src="images/logo.svg" alt="Bootstrap" height="50">
             </a>
-            <ul class="nav justify-content-end">
+            <ul class="navbar nav justify-content-end">
                 <li>
                     <a class="nav-link" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="about.php">Abut Us</a>
                 </li>
+                <li><a class="nav-link" href="login.php"><button type="button" class="btn btn-danger">Add
+                            Student</button></a></li>
             </ul>
         </div>
     </nav>
-    <br><br>
-    <div class="card border-dark mb-3" style="max-width: 1250;">
-        <div class="card-body">
-            <h5 class="card-title">
-                <center>About Us</center>
-            </h5>
-            <p class="card-text">
-                Harvard University is a private Ivy League research university in Cambridge, Massachusetts, United
-                States.
-                Founded in 1636, and named Harvard College in 1639 in honor of its first benefactor, Puritan clergyman
-                John
-                Harvard, it is the oldest institution of higher learning in the United States. Its influence, wealth,
-                and
-                rankings have made it one of the most prestigious universities in the world.[12]
+    <br>
+    <div class="mb-12 row g-3 ps-4" style="max-width: 1250px;max-height: 700px">
+        <div class="col-md-4 float-start">
+            <div class="card mb-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                <img src="images/14.png" alt="img"><br><br>
+                <h1 class="para">Laura Jhakli</h1><br><br>
+                <p style="font size : 40px" class="para"><b>Laura Jakli, an assistant professor in the Business,
+                        Government,
+                        and the
+                        International Economy Unit at Harvard Business School, is happiest refining and challenging her
+                        preconceived notions and assumptions—a common occurrence when evaluating political marketing and
+                        strategy data. We talked with Jakli about her research, her forthcoming book, and how she likes
+                        to
+                        spend her free time.</p></b>
+            </div>
+        </div>
+        <div class="col-md-4 float-end">
+            <div class="card-body">
+                <div class="card mb-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                    <img src="images/15.png" alt="img"><br><br>
+                    <h1 class="para">I-Min Lee</h1><br><br>
+                    <p style="font size :40px" class="para"><b>
+                            I-Min Lee got used to being the odd one out at conferences when she first began researching
+                            the
+                            role of exercise in health and disease-prevention.
 
-                Harvard was founded and authorized by the Massachusetts General Court, the governing legislature of
-                colonial-era
-                Massachusetts Bay Colony.[13] While never formally affiliated with any Protestant denomination, Harvard
-                trained
-                Congregational clergy until its curriculum and student body were gradually secularized in the 18th
-                century. In
-                1780, the Constitution of Massachusetts referred to it as a university, and a new medical school
-                established in
-                1782 was named the Medical Institution of Harvard University; but this was a new name, not a new
-                foundation.
-                Harvard College soon became the name of the university's undergraduate division.[14]
+                            “A lot of people in this area were athletes in college, or they played a sport, or were
+                            ballet
+                            dancers,” said Lee, a physical activity epidemiologist. She recalled standing around feeling
+                            awkward while colleagues discussed marathon times.
+                    </p></b>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 float-end">
+            <div class="card-body">
+                <div class="card mb-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                    <img src="images/16.png" alt="img"><br><br>
+                    <h1 class="para">Patrick Slade</h1><br><br>
+                    <p style="font size :40px" class="para"><b>
+                            Patrick Slade got used to being the odd one out at conferences when she first began
+                            researching
+                            the
+                            role of exercise in health and disease-prevention.
 
-                By the 19th century, Harvard had emerged as the most prominent academic and cultural institution among
-                the
-                Boston elite.[15][16] Following the American Civil War, under Harvard president Charles William Eliot's
-                long
-                tenure from 1869 to 1909, Harvard developed multiple professional schools, which transformed it into a
-                modern
-                research university. In 1900, Harvard co-founded the Association of American Universities.[17] James B.
-                Conant
-                led the university through the Great Depression and World War II, and liberalized admissions after the
-                war.
-
-                The university has ten academic faculties and a faculty attached to Harvard Radcliffe Institute. The
-                Faculty of
-                Arts and Sciences offers study in a wide range of undergraduate and graduate academic disciplines, and
-                other
-                faculties offer graduate degrees, including professional degrees. Harvard has three campuses:[18] the
-                main
-                campus, a 209-acre (85 ha) in Cambridge centered on Harvard Yard; an adjoining campus immediately across
-                Charles
-                River in the Allston neighborhood of Boston; and the medical campus in Boston's Longwood Medical
-                Area.[19]
-                Harvard's endowment, valued at $55.7 billion, makes it the wealthiest academic institution in the
-                world.[20][21][22] Harvard Library, with more than 20 million volumes, is the world's largest academic
-                library.
-                Harvard's endowment, valued at $55.7 billion, makes it the wealthiest academic institution in the
-                world.[20][21][22] Harvard Library, with more than 20 million volumes, is the world's largest academic
-                library.
-            </p>
+                            “A lot of people in this area were athletes in college, or they played a sport, or were
+                            ballet
+                            dancers,” said Lee, a physical activity epidemiologist. She recalled standing around feeling
+                            awkward while colleagues discussed marathon times.
+                    </p></b>
+                </div>
+            </div>
         </div>
     </div>
+
+    </div><br><br>
+    <div class="mb-12 row g-3 ps-4" style="max-width: 1250px;max-height: 700px">
+        <div class="col-md-4 float-start">
+            <div class="card mb-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                <img src="images/14.png" alt="img"><br><br>
+                <h1 class="para">Laura Jhakli</h1><br><br>
+                <p style="font size : 40px" class="para"><b>Laura Jakli, an assistant professor in the Business,
+                        Government,
+                        and the
+                        International Economy Unit at Harvard Business School, is happiest refining and challenging her
+                        preconceived notions and assumptions—a common occurrence when evaluating political marketing and
+                        strategy data. We talked with Jakli about her research, her forthcoming book, and how she likes
+                        to
+                        spend her free time.</p></b>
+            </div>
+        </div>
+        <div class="col-md-4 float-end">
+            <div class="card-body">
+                <div class="card mb-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                    <img src="images/15.png" alt="img"><br><br>
+                    <h1 class="para">I-Min Lee</h1><br><br>
+                    <p style="font size :40px" class="para"><b>
+                            I-Min Lee got used to being the odd one out at conferences when she first began researching
+                            the
+                            role of exercise in health and disease-prevention.
+
+                            “A lot of people in this area were athletes in college, or they played a sport, or were
+                            ballet
+                            dancers,” said Lee, a physical activity epidemiologist. She recalled standing around feeling
+                            awkward while colleagues discussed marathon times.
+                    </p></b>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 float-end">
+            <div class="card-body">
+                <div class="card mb-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                    <img src="images/16.png" alt="img"><br><br>
+                    <h1 class="para">Patrick Slade</h1><br><br>
+                    <p style="font size :40px" class="para"><b>
+                            Patrick Slade got used to being the odd one out at conferences when she first began
+                            researching
+                            the
+                            role of exercise in health and disease-prevention.
+
+                            “A lot of people in this area were athletes in college, or they played a sport, or were
+                            ballet
+                            dancers,” said Lee, a physical activity epidemiologist. She recalled standing around feeling
+                            awkward while colleagues discussed marathon times.
+                    </p></b>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div><br><br><br><br>
+
     <div class="card mb-12" style="max-width: 1250px;">
         <div class="row g-0">
-            <div class="col-md-4">
-                <img src="uploads/logo.svg" class="img-fluid rounded-start" alt="..." height="400">
-            </div>
-            <div class="col-md-4 float-md-none">
-                <div class="card-body">
-                    <center>
-                        <p font-size="40"><a href="index.php" class="link-success link-underline-light"> Home</a>
-                        </p>
-                    </center>
-                    <center>
-                        <p font-size="40"><a href="about.php" class="link-success link-underline-light"> About Us</a>
-                        </p>
-                        <a class="nav-link" href="login.php"><button type="button" class="btn btn-primary">Add
-                                Student</button></a>
-                    </center>
+            <footer class="bg-dark text-white py-4">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-4 float-end">
+                            <center>
+                                <h1><b>Security Brand</b></h1>
+                                <p font-size="40"><a href="#" class="link-light link-underline-dark">
+                                        Report Copyright Infigiment</a>
+                                </p>
+                                <p font-size="40"><a href="#" class="link-light link-underline-dark">
+                                        Report Security Issue</a>
+                                </p>
+                                <p font-size="40"><a href="#" class="link-light link-underline-dark">
+                                        Trade Mark Notice</a>
+                                </p>
+                        </div>
+                        </center>
+                        <div class="col-md-4 float-end">
+                            <center>
+                                <h1><b>Website</b></h1>
+                                <p font-size="40"><a href="#" class="link-light link-underline-dark">
+                                        Accessibility</a>
+                                </p>
+                                <p font-size="40"><a href="#" class="link-light link-underline-dark">
+                                        Digital Accessibility</a>
+                                </p>
+                                <p font-size="40"><a href="#" class="link-light link-underline-dark">
+                                        Privacy Statement</a>
+                                </p>
+                        </div>
+                        </center>
+                        <div class="col-md-4 float-end">
+                            <center>
+                                <h1><b>Get In Touch</b></h1>
+                                <p font-size="40"><a href="#" class="link-light link-underline-dark">
+                                        Contact Harvard</a>
+                                </p>
+                                <p font-size="40"><a href="#" class="link-light link-underline-dark">
+                                        Maps and Direction</a>
+                                </p>
+                                <p font-size="40"><a href="#" class="link-light link-underline-dark">
+                                        Jobs</a>
+                                </p>
+                        </div>
+                        </center><br><br><br>
+                        <div class="col-md-4 float-end">
+                            <center>
+                                <p class="secondary">Copyright © 2026 The President and Fellows of Harvard College
+                                </p>
+                            </center>
+                        </div>
+                        <div class="col-md-4">
+                            <center>
+                                <img src="images/logo.png" width="250">
+                            </center>
+                        </div>
+                        <div class="col-md-4">
+
+
+                            <h5>Quick Links</h5>
+
+                            <div class="card-body">
+
+                                <p font-size="40" class="deco"><a href="index.php"
+                                        class="link-light link-underline-dark">
+                                        Home</a>
+                                </p>
+
+
+                                <p font-size="40"><a href="about.php" class="link-light link-underline-dark">
+                                        About Us</a>
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card-body">
-                    <center>
-                        <p font-size="20">
-                            <b>Address :-<i> Harvard University<br>
-                                    Cambridge, MA 02138</i><br>
-                                Email :- harvard.edu@gmail.com<br>
-                                Contact Number :- 617-495-1000</b><br>
-                        </p>
-                    </center>
-                </div>
-            </div>
+            </footer>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

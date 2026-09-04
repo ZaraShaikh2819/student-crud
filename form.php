@@ -1,3 +1,47 @@
+<?php
+require "connection.php";
+
+
+$message = "";
+if (isset($_POST["submit"])) {
+    $name = $_POST["name"];
+    $email = $_POST["email"];
+    $course = $_POST["course"];
+    $phno = $_POST["phno"];
+    $photo = time() . $name . ".jpg";
+    $size = $_FILES["photo"]["size"];
+    $temp = $_FILES["photo"]["tmp_name"];
+    $type = $_FILES["photo"]["type"];
+    $extension = ($type == "images/png") ? ".png" : ".jpg";
+
+
+    if (empty($name) || empty($email) || empty($phno) || empty($course) || empty($photo)) {
+        $message = "All Fields must be required!";
+    } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $message = "Invalid Email!";
+    } else if (strlen($phno) != 10) {
+        $message = "Phone Number must be of 10 digits!";
+    } else if ($type != "image/jpeg" && $type != "image/png") {
+        $message = "Only PNG or JPG Images Allowed!";
+    } else if ($size > 2097152) {
+        $message = "Maximum File Size is 2MB";
+    } else {
+        if (!file_exists("uploads")) {
+            mkdir("uploads", 0777, true);
+        }
+        move_uploaded_file($temp, "uploads/" . $photo);
+        $stmt = mysqli_prepare($conn, "INSERT INTO school (name,email,course,phno,photo)
+                VALUES (?,?,?,?,?);");
+        mysqli_stmt_bind_param($stmt, "sssss", $name, $email, $course, $phno, $photo);
+        $result = mysqli_stmt_execute($stmt); //Returns true or false
+        if ($result) {
+            $message = '<p class="text-success text-center">Student Added Successfully!</p>';
+        } else {
+            $message = "Failed to Add Student! Error : " . mysqli_error($conn);
+        }
+    }
+}
+?>
 <!Doctype html>
 <html>
 
@@ -5,21 +49,28 @@
     <title>
         Form page
     </title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="adminstyle.css">
 </head>
 
-<body>
-    <h1>Form</h1>
-    <form method="post" action="create.php">
-        Name : <input type="text" name="name" required><br><br>
-        Email : <input type="email" name="email" required><br><br>
-        Phone Number : <input type="number" name="phno" required><br><br>
-        Course : <input type="text" name="course" required><br><br>
-        Photo : <input type="file" name="photo" required><br><br>
-        <input type="submit" name="submit" value="submit">
-    </form><br><br>
-    <b><?php echo $message; ?></b>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<body class="body-form">
+    <div>
+        <h1>Add Student</h1>
+        <center>
+            <div class="card w-50 shadow-lg p-3 mb-5 bg-body-tertiary rounded div-form">
+                <form method="post" enctype="multipart/form-data">
+                    Name : <input type="text" name="name" required><br><br>
+                    Email : <input type="email" name="email" required><br><br>
+                    Phone Number : <input type="number" name="phno" required><br><br>
+                    Course : <input type="text" name="course" required><br><br>
+                    Photo : <input type="file" name="photo" required><br><br>
+                    <input type="submit" name="submit" value="submit">
+                </form><br><br>
+                <b><?php echo $message; ?></b>
+            </div>
+        </center>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </div>
 </body>
 
 </html>
