@@ -14,6 +14,29 @@ $row = mysqli_fetch_assoc($result);
 </head>
 
 <body class="body-view">
+    <div class="sidebar">
+
+        <h1 class="text-white text-center mb-4">
+            Student CRUD
+        </h1>
+
+        <a href="form.php">
+            Add Student
+        </a>
+
+        <a href="view.php">
+            View Students
+        </a>
+
+        <a href="edit.php">
+            Edit
+        </a>
+
+        <a href="index.php">
+            Logout
+        </a>
+
+    </div>
     <h1>Edit Student</h1>
     <form action="update.php" method="post" class="font-style">
         <input type="hidden" name="id" value="<?php echo $row["id"]; ?>"><br><br>

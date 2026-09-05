@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <nav class="navbar nav-about bg-body-primary">
+    <nav class="navbar bg-body-primary">
         <div class="container shadow-lg p-3 mb-5 bg-body-tertiary rounded">
             <a class="navbar nav-link" href="#">
                 <img src="images/logo.svg" alt="Bootstrap" height="50">
@@ -35,10 +35,7 @@
                         Government,
                         and the
                         International Economy Unit at Harvard Business School, is happiest refining and challenging her
-                        preconceived notions and assumptions—a common occurrence when evaluating political marketing and
-                        strategy data. We talked with Jakli about her research, her forthcoming book, and how she likes
-                        to
-                        spend her free time.</p></b>
+                        preconceived notions and assumptions—a common occurrence when evaluating </p></b>
             </div>
         </div>
         <div class="col-md-4 float-end">
@@ -53,8 +50,6 @@
 
                             “A lot of people in this area were athletes in college, or they played a sport, or were
                             ballet
-                            dancers,” said Lee, a physical activity epidemiologist. She recalled standing around feeling
-                            awkward while colleagues discussed marathon times.
                     </p></b>
                 </div>
             </div>
@@ -72,8 +67,6 @@
 
                             “A lot of people in this area were athletes in college, or they played a sport, or were
                             ballet
-                            dancers,” said Lee, a physical activity epidemiologist. She recalled standing around feeling
-                            awkward while colleagues discussed marathon times.
                     </p></b>
                 </div>
             </div>
@@ -90,10 +83,7 @@
                         Government,
                         and the
                         International Economy Unit at Harvard Business School, is happiest refining and challenging her
-                        preconceived notions and assumptions—a common occurrence when evaluating political marketing and
-                        strategy data. We talked with Jakli about her research, her forthcoming book, and how she likes
-                        to
-                        spend her free time.</p></b>
+                        preconceived notions and assumptions—a common occurrence when evaluating </p></b>
             </div>
         </div>
         <div class="col-md-4 float-end">
@@ -108,8 +98,6 @@
 
                             “A lot of people in this area were athletes in college, or they played a sport, or were
                             ballet
-                            dancers,” said Lee, a physical activity epidemiologist. She recalled standing around feeling
-                            awkward while colleagues discussed marathon times.
                     </p></b>
                 </div>
             </div>
@@ -127,8 +115,6 @@
 
                             “A lot of people in this area were athletes in college, or they played a sport, or were
                             ballet
-                            dancers,” said Lee, a physical activity epidemiologist. She recalled standing around feeling
-                            awkward while colleagues discussed marathon times.
                     </p></b>
                 </div>
             </div>
@@ -203,12 +189,13 @@
                             <div class="card-body">
 
                                 <p font-size="40" class="deco"><a href="index.php"
-                                        class="link-light link-underline-dark">
+                                        class="footer-links link-light link-underline-dark">
                                         Home</a>
                                 </p>
 
 
-                                <p font-size="40"><a href="about.php" class="link-light link-underline-dark">
+                                <p font-size="40"><a href="about.php"
+                                        class="footer-links link-light link-underline-dark">
                                         About Us</a>
                                 </p>
 

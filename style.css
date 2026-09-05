@@ -17,6 +17,11 @@ span.Carousel-Btn {
 .para {
     font-family: "Lucida Bright";
     margin: 20px;
+    word-spacing: 4px;
+    letter-spacing: 5%;
+}
+
+.header-text {
     margin-top: 36%;
 }
 
@@ -30,12 +35,12 @@ span.Carousel-Btn {
     gap: 8px;
 }
 
-.footer-links a {
+.footer-links {
     color: white;
     text-decoration: none;
 }
 
-.footer-links a:hover {
+.footer-links:hover {
     color: #0d6efd;
 }
 
@@ -59,11 +64,10 @@ form.login-form {
 
 /* About Page */
 
-.nav-about {
+/* .nav-about {
     background-color: darkblue;
-}
-
+} */
 .nav-link {
-    color: aliceblue;
     text-decoration: none;
+    color: red;
 }

@@ -1,12 +1,12 @@
-/* Form Page */
-.body-form {
+/* Form Page *font-family: "Lucida Bright";/
+/* .body-form {
     background: url(images/14.jpg);
     /* filter: blur(2px); */
-    background-size: cover;
+/* background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
-}
+} */
 
 h1 {
     font-family: "Lucida Bright";
@@ -16,14 +16,61 @@ h1 {
 }
 
 .div-form {
+    text-align: center;
     margin-top: 5%;
-    padding: 20%;
-    background: url(images/14.jpg);
+    padding: 7%;
+    /* background: url(images/14.jpg); */
+    background-color: #bc2f1f;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     align-items: center;
     font-family: "Lucida Bright";
+}
+
+.photo-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+    border: 3px solid #ddd;
+    cursor: pointer;
+    /* padding: 50px; */
+}
+
+.photo-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#photo {
+    display: none;
+}
+
+.margin-photo {
+    margin-top: -10px;
+    margin-left: -75px;
+    padding: 50px;
+}
+
+.submit-btn {
+    width: 20%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #303d7c;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background: #222e62;
 }
 
 /* View */
@@ -41,6 +88,11 @@ h1 {
     backdrop-filter: blur(2px);
     margin: auto;
     text-align: center;
+}
+
+table {
+    width: 1000px;
+    float: right;
 }
 
 button {
@@ -66,4 +118,43 @@ a:hover {
 
 .font-style {
     font-family: "Lucida Bright";
+}
+
+.id-photo {
+    border-radius: 60%;
+}
+
+/* Dashboard */
+
+.sidebar {
+    width: 230px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin-top: 0%;
+    background-color: #303d7c;
+    padding: 20px 10px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 12px 15px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+}
+
+.sidebar a:hover {
+    background-color: #202b60;
+}
+
+.content {
+    margin-left: 230px;
+    padding: 30px;
+}
+
+.h2 {
+    text-align: center;
 }

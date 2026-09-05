@@ -28,7 +28,7 @@
                 </ul>
             </div>
         </nav>
-        <p class="divpara">
+        <p class="divpara header-text">
         <h1 class="para">Welcome To Harvard's</h1>
         <i>Talented students and world-class faculty come together at Harvard to <br>
             collaborate on groundbreaking research,cutting-edge innovations,<br>
@@ -112,15 +112,15 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="2000">
                                 <img src="images/8.jpg" class="d-block w-100" alt="..." width="200px" height="400px">
-                                <h2 class="para">Our Museum</h2><br><br><br>
-                            </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img src="images/12.jpg" class="d-block w-100" alt="..." width="200px" height="400px">
                                 <h2 class="para">Our Library</h2><br><br><br>
                             </div>
                             <div class="carousel-item" data-bs-interval="2000">
-                                <img src="images/5.jpg" class="d-block w-100" alt="..." width="200px" height="400px">
+                                <img src="images/12.jpg" class="d-block w-100" alt="..." width="200px" height="400px">
                                 <h2 class="para">Our Athelitics</h2><br><br><br>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="images/5.jpg" class="d-block w-100" alt="..." width="200px" height="400px">
+                                <h2 class="para">Our Museum</h2><br><br><br>
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
@@ -147,15 +147,15 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="2000">
                                 <img src="images/12.jpg" class="d-block w-100" alt="..." width="200px" height="400px">
-                                <h2 class="para">Our Museum</h2><br><br><br>
+                                <h2 class="para">Our Athelitics</h2><br><br><br>
                             </div>
                             <div class="carousel-item" data-bs-interval="2000">
                                 <img src="images/5.jpg" class="d-block w-100" alt="..." width="200px" height="400px">
-                                <h2 class="para">Our Library</h2><br><br><br>
+                                <h2 class="para">Our Museum</h2><br><br><br>
                             </div>
                             <div class="carousel-item" data-bs-interval="2000">
                                 <img src="images/8.jpg" class="d-block w-100" alt="..." width="200px" height="400px">
-                                <h2 class="para">Our Athelitics</h2><br><br><br>
+                                <h2 class="para">Our Library</h2><br><br><br>
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
@@ -247,9 +247,6 @@
                                 <p font-size="40"><a href="about.php" class="link-light link-underline-dark">
                                         About Us</a>
                                 </p>
-                                <a class="nav-link" href="login.php"><button type="button" class="btn btn-danger">Add
-                                        Student</button></a>
-
                             </div>
                         </div>
                     </div>

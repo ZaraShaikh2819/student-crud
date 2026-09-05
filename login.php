@@ -1,16 +1,19 @@
 <?php
 $conn = mysqli_connect("localhost", "root", "root123", "school_db");
+$message = "";
 if (isset($_POST["login"])) {
     $username = $_POST["username"];
     $password = $_POST["password"];
-    $stmt = mysqli_prepare($conn, "SLECT * FROM admin WHERE username =? AND password=?");
-    mysqli_stmt_bind_param($stmt, "ss", $username, $password);
-    mysqli_stmt_execute($stmt);
-    $result = mysqli_stmt_get_result($stmt);
-    if (mysqli_num_rows($result) > 0) {
-        echo "Login Successful.";
-    } else {
-        echo "Invalid Login.";
+    if ($username == "admin" && $password == "admin1234") {
+        $message = 'Login Successfully!';
+        header("Location: form.php");
+        // } else if ($username != "admin") {
+        //     $message = 'Invalid Username';
+        // } else if ($password != "admin1234") {
+        //     $message = 'Invalid Password';
+        // } else {
+        //     $message = 'Invalid Username And Password';
+        // }
     }
 }
 ?>
@@ -24,14 +27,13 @@ if (isset($_POST["login"])) {
 </head>
 
 <body>
-    <h2 class="heading">Add Student</h2>
+    <h2 class="heading">Login Page</h2>
     <div class="login-page card w-50 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
         <div class="card-body">
             <form action="login.php" method="POST" class="login-form">
                 Username : <input type="text" name="username" required><br><br>
                 Password : <input type="password" required name="password" placeholder="Name123"><br><br>
-                <input type="submit" value="Login" class="btn btn-primary"> <a href="view.php"
-                    class="btn btn-primary">View</a>
+                <input type="submit" name="login" value="Login" class="btn btn-primary">
             </form>
         </div>
         <?php $message = ""; ?>
