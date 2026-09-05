@@ -27,10 +27,6 @@ $total = mysqli_query($conn, "SELECT * FROM school");
             View Students
         </a>
 
-        <a href="edit.php">
-            Edit
-        </a>
-
         <a href="index.php">
             Logout
         </a>

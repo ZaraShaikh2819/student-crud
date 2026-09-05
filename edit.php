@@ -28,10 +28,6 @@ $row = mysqli_fetch_assoc($result);
             View Students
         </a>
 
-        <a href="edit.php">
-            Edit
-        </a>
-
         <a href="index.php">
             Logout
         </a>

@@ -68,9 +68,6 @@ if (isset($_POST["submit"])) {
             View Students
         </a>
 
-        <a href="edit.php">
-            Edit
-        </a>
 
         <a href="logout.php">
             Logout
