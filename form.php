@@ -77,27 +77,29 @@ if (isset($_POST["submit"])) {
     <div>
         <h1 class="font-style">Add Student</h1>
         <center>
-            <div class="card mb-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded div-form" style="max-width: 700px;">
+            <div class="card mb-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded div-form"
+                style="max-width: 800px; margin-left:200px;">
                 <div class="row g-0">
-                    <div class="col-md-2 g-3 ">
+                    <div class="col-md-2 g-4 ">
                         <form method="post" enctype="multipart/form-data">
                             <div class="photo-upload margin-photo">
-
                                 <label for="photo" class="photo-circle">
 
                                     <img id="preview" src="images/profile.jpg" alt="Profile Photo">
 
                                 </label>
-
                                 <input type="file" id="photo" name="photo" accept="image/*" required>
-
+                                <br>
+                                <div style="width:290px;margin-left:-50px;color:grey;">
+                                    <p>Click the logo to upload photo</p>
+                                </div>
                                 <div class="invalid-feedback">
                                     Please upload a photo.
                                 </div>
 
                             </div>
                     </div>
-                    <div class="col-md-10 g-3 ">
+                    <div class="col-md-10 g-4">
                         <div class="card-body" style="margin-right: -75px;">
                             Name : <input type="text" name="name" required><br><br>
                             Email : <input type="email" name="email" required><br><br>
@@ -113,6 +115,7 @@ if (isset($_POST["submit"])) {
     </div>
     </div>
     </div>
+
     </div>
     </center>
     <script>

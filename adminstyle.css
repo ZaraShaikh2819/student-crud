@@ -88,6 +88,8 @@ h1 {
     backdrop-filter: blur(2px);
     margin: auto;
     text-align: center;
+    /* border-style: double; */
+    /* padding: 20px; */
 }
 
 table {
@@ -157,4 +159,21 @@ a:hover {
 
 .h2 {
     text-align: center;
+}
+
+/* Edit Page */
+
+.div-edit {
+    margin: 500px;
+    padding: 20px;
+}
+
+th {
+    border: #202b60 solid;
+    column-gap: 100px;
+    width: 1000px;
+}
+
+td {
+    border: #202b60 solid;
 }

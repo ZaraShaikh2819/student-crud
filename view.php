@@ -34,7 +34,8 @@ $total = mysqli_query($conn, "SELECT * FROM school");
     </div>
     <br>
     <h1>Student Details</h1>
-    <table border="2" cellpading="30" class="table-view">
+    <table border="2" cellpading="60" class="card table-view shadow-lg p-3 mb-5 bg-body-tertiary rounded div-form"
+        style="margin-left:200px;">
         <tr class="font-style">
             <th>ID</th>
             <th>Photo</th>
