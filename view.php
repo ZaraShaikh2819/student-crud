@@ -56,8 +56,9 @@ $total = mysqli_query($conn, "SELECT * FROM school");
                 <td><?php echo $row["email"]; ?></td>
                 <td><?php echo $row["phno"]; ?></td>
                 <td><?php echo $row["course"]; ?></td>
-                <td><a href="edit.php?id=<?php echo $row["id"]; ?>">Edit</a></td>
-                <td><a href="delete.php?id=<?php echo $row["id"]; ?>">Delete</a></td>
+                <td><a class="btn btn-warning " href="edit.php?id=<?php echo $row["id"]; ?>">Edit</a></td>
+                <td><a class="btn btn-danger" href="delete.php?id=<?php echo $row["id"]; ?>">Delete</a>
+                </td>
             </tr>
         <?php } ?>
     </table><br><br>

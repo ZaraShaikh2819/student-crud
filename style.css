@@ -71,3 +71,9 @@ form.login-form {
     text-decoration: none;
     color: red;
 }
+
+/* Contact US */
+body.bg-colour {
+    
+    background-color: black;
+}

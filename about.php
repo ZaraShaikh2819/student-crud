@@ -20,8 +20,11 @@
                 <li class="nav-item">
                     <a class="nav-link" href="about.php">Abut Us</a>
                 </li>
-                <li><a class="nav-link" href="login.php"><button type="button" class="btn btn-danger">Add
-                            Student</button></a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.php">Contact Us</a>
+                </li>
+                <li><a class="nav-link" href="login.php"><button type="button" class="btn btn-danger">Login</button></a>
+                </li>
             </ul>
         </div>
     </nav>

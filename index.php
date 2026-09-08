@@ -21,9 +21,12 @@
                     <li class="nav-item">
                         <a class="nav-link" href="about.php">About Us</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.php">Contact Us</a>
+                    </li>
                     <li>
-                        <a class="nav-link" href="login.php"><button type="button" class="btn btn-danger">Add
-                                Student</button></a>
+                        <a class="nav-link" href="login.php"><button type="button"
+                                class="btn btn-danger">Login</button></a>
                     </li>
                 </ul>
             </div>
@@ -46,13 +49,13 @@
                 </p>
             </th>
             <!-- CAMPUSS -->
-            <th width="600px">
+            <th width="400px">
                 <div class="card mb-3 float-end">
                     <div class="row g-0">
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="images/3.jpg" class="d-block w-100" alt="..." width="150px"
+                                    <img src="images/1.jpg" class="d-block w-100" alt="..." width="150px"
                                         height="300px">
                                 </div>
                                 <div class="carousel-item">
