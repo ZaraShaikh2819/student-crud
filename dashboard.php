@@ -48,6 +48,10 @@
             Student CRUD
         </h1>
 
+        <a href="dashboard.php">
+            Dashboard
+        </a>
+
         <a href="form.php">
             Add Student
         </a>
@@ -56,9 +60,6 @@
             View Students
         </a>
 
-        <a href=".php">
-            Edit
-        </a>
 
         <a href="index.php">
             Logout
@@ -68,7 +69,9 @@
 
     <div class="content">
 
-        <h1>Website layout</h1>
+        <h1 style="margin-top:-10px">Website Overview</h1>
+        <hr>
+        <hr>
 
         <h2 class="font-style h2"> Home Page</h2>
         <hr>
@@ -100,11 +103,60 @@
                 collaborate on groundbreaking research,cutting-edge innovations,<br>
                 and transformative scholarly work.</i>
             </p>
-        </div>
-        <br><br>
-    </div><br>
-    <h2 class="font-style h2"> Photos</h2>
+            <div </div>
+                <br><br>
+            </div><br>
+            <h2 class="font-style h2"> Photos</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col"><img src="images/1.jpg" height="200px"></div>
+                    <div class="col"><img src="images/4.jpg" height="200px"></div>
+                    <div class="col"><img src="images/3.jpg" height="200px"></div>
+                </div><br><br>
+                <div class="row">
+                    <div class="col"><img src="images/5.jpg" height="200px"></div>
+                    <div class="col"><img src="images/6.jpg" height="200px"></div>
+                    <div class="col"><img src="images/7.jpg" height="200px"></div>
+                    <div class="col"><img src="images/8.jpg" height="200px"></div>
+                </div><br><br>
+                <div class="row">
+                    <div class="col"><img src="images/9.jpg" height="200px"></div>
+                    <div class="col"><img src="images/10.jpg" height="200px"></div>
+                    <div class="col"><img src="images/11.jpg" height="200px"></div>
+                    <div class="col"><img src="images/12.jpg" height="200px"></div>
+                </div><br><br>
+                <div class="row">
+                    <div class="col"><img src="images/13.jpg" height="200px"></div>
+                    <div class="col"><img src="images/17.jpg" height="200px"></div>
+                    <div class="col"><img src="images/18.jpg" height="200px"></div>
+                </div><br><br>
+            </div>
 
+            <hr>
+            <hr>
+            <h2>STAFF MEMBERS</h2>
+            <hr>
+            <hr>
+            <div class="container">
+                <div class="row">
+                    <div class="col"><img src="images/17.png" height="200px" width="300px"></div>
+                    <div class="col"><img src="images/18.png" height="200px"></div>
+                </div><br><br>
+                <div class="row">
+                    <div class="col"><img src="images/19.png" height="200px" width="300px"></div>
+                    <div class="col"><img src="images/14.png" height="200px"></div>
+                </div><br><br>
+                <div class="row">
+                    <div class="col"><img src="images/15.png" height="200px" width="300px"></div>
+                    <div class="col"><img src="images/16.png" height="200px"></div>
+                </div>
+            </div>
+            <hr>
+            <hr>
+            <h3>END</h3>
+            <hr>
+            <hr>
+            <hr>
 </body>
 
 </html>

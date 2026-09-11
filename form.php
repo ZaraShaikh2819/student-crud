@@ -60,6 +60,10 @@ if (isset($_POST["submit"])) {
             Student CRUD
         </h1>
 
+        <a href="dashboard.php">
+            Dashboard
+        </a>
+
         <a href="form.php">
             Add Student
         </a>
@@ -68,8 +72,7 @@ if (isset($_POST["submit"])) {
             View Students
         </a>
 
-
-        <a href="logout.php">
+        <a href="index.php">
             Logout
         </a>
 

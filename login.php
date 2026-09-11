@@ -6,7 +6,7 @@ if (isset($_POST["login"])) {
     $password = $_POST["password"];
     if ($username == "admin" && $password == "admin1234") {
         $message = 'Login Successfully!';
-        header("Location: form.php");
+        header("Location: dashboard.php");
         // } else if ($username != "admin") {
         //     $message = 'Invalid Username';
         // } else if ($password != "admin1234") {

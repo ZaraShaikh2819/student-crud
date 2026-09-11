@@ -13,11 +13,15 @@ $total = mysqli_query($conn, "SELECT * FROM school");
 </head>
 
 <body class="body-view">
-    <div class="sidebar">
+    <div class="sidebar" style="text-align:left;">
 
         <h1 class="text-white text-center mb-4">
             Student CRUD
         </h1>
+
+        <a href="dashboard.php">
+            Dashboard
+        </a>
 
         <a href="form.php">
             Add Student

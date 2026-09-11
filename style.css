@@ -1,3 +1,18 @@
+/* Navbar */
+.my-box {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+.head {
+    word-spacing: 8px;
+}
+
+.paradiv {
+    text-align: right;
+}
+
 /* Home Page */
 div.header {
     height: 700px;
@@ -17,7 +32,7 @@ span.Carousel-Btn {
 .para {
     font-family: "Lucida Bright";
     margin: 20px;
-    word-spacing: 4px;
+    word-spacing: 2px;
     letter-spacing: 5%;
 }
 
@@ -74,6 +89,6 @@ form.login-form {
 
 /* Contact US */
 body.bg-colour {
-    
+
     background-color: black;
 }

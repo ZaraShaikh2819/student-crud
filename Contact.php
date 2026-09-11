@@ -9,7 +9,7 @@
 
 <body>
     <nav class="navbar bg-body-primary">
-        <div class="container shadow-lg p-4 mb-5 bg-body-tertiary rounded">
+        <div class="container-fluid shadow-lg p-4 mb-5 bg-body-tertiary rounded">
             <a class="navbar nav-link" href="#">
                 <img src="images/logo.svg" alt="Bootstrap" height="50">
             </a>
@@ -32,7 +32,7 @@
         <tr>
             <th>
                 <div class=" shadow-lg p-3 mb-5 bg-body-tertiary rounded div-form row align-items"
-                    style="width: 600px;margin-left:2%;margin-top:-50px;text-align:left; height: 350px;">
+                    style="width: 600px;margin-left:2%;margin-top:-50px;text-align:left; height: 407px;">
                     <br>
                     <center>
                         <h1>Contact Us On:</h1>
@@ -50,10 +50,24 @@
                     <center>
                         <h2>Join US:-</h2>
                     </center>
-                    Name : <input type="text" name="name" required><br><br>
-                    Email : <input type="email" name="email" required><br><br>
-                    Phone Number : <input type="number" name="phno" required><br><br>
-                    Course : <input type="text" name="course" required><br><br>
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label">Name</label>
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label">Course</label>
+                            <input type="text" class="form-control" placeholder="Course Name">
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label">Phone Number</label>
+                            <input type="number" class="form-control" placeholder="Contact Number">
+                        </div>
+                    </form><br>
                     <center><input type="button" value="Submit" class="btn btn-primary p-1 mb-3" style="font-size:25px">
                     </center>
                     </form>

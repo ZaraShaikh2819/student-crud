@@ -9,7 +9,7 @@
 
 <body>
     <nav class="navbar bg-body-primary">
-        <div class="container shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+        <div class="container-fluid shadow-lg p-3 mb-5 bg-body-tertiary rounded">
             <a class="navbar nav-link" href="#">
                 <img src="images/logo.svg" alt="Bootstrap" height="50">
             </a>
@@ -29,6 +29,55 @@
         </div>
     </nav>
     <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col"><img src="images/17.jpg" alt="img" style="padding: 5px; width: 500px;">
+            </div>
+            <div class="col">
+                <h1 class="head">Our University</h1>
+                <p class="para">Harvard University is a private Ivy League research university in Cambridge,
+                    Massachusetts, United
+                    States. Founded in 1636, and named Harvard College in 1639 in honor of its first benefactor, Puritan
+                    clergyman John Harvard, it is the oldest institution of higher learning in the United States. Its
+                    influence, wealth, and rankings have made it one of the most prestigious universities in the
+                    world.
+                </p>
+                <p>
+                    Harvard was founded and authorized by the Massachusetts General Court, the governing legislature of
+                    colonial-era Massachusetts Bay Colony.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="head">Our Campus</h1>
+                Harvard University is a private Ivy League research university in Cambridge, Massachusetts, United
+                States. Founded in 1636, and named Harvard College in 1639 in honor of its first benefactor, Puritan
+                clergyman John Harvard, it is the oldest institution of higher learning in the United States. Its
+                influence, wealth, and rankings have made it one of the most prestigious universities in the
+                world.[12]
+
+                Harvard was founded and authorized by the Massachusetts General Court, the governing legislature of
+                colonial-era Massachusetts Bay Colony.
+            </div>
+            <div class="col">
+                <img src="images/18.jpg" alt="img" style="padding: 5px; width: 500px;" class="g-3"><br><br>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <hr>
+    <center>
+        <h1 class="para">Our Staff</h1>
+    </center>
+    <hr>
+    <hr>
     <div class="mb-12 row g-3 ps-4" style="max-width: 1250px;max-height: 700px">
         <div class="col-md-4 float-start">
             <div class="card mb-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
@@ -37,7 +86,8 @@
                 <p style="font size : 40px" class="para"><b>Laura Jakli, an assistant professor in the Business,
                         Government,
                         and the
-                        International Economy Unit at Harvard Business School, is happiest refining and challenging her
+                        International Economy Unit at Harvard Business School, is happiest refining and challenging
+                        her
                         preconceived notions and assumptions—a common occurrence when evaluating </p></b>
             </div>
         </div>
@@ -47,7 +97,8 @@
                     <img src="images/15.png" alt="img"><br><br>
                     <h1 class="para">I-Min Lee</h1><br><br>
                     <p style="font size :40px" class="para"><b>
-                            I-Min Lee got used to being the odd one out at conferences when she first began researching
+                            I-Min Lee got used to being the odd one out at conferences when she first began
+                            researching
                             the
                             role of exercise in health and disease-prevention.
 
@@ -80,44 +131,37 @@
     <div class="mb-12 row g-3 ps-4" style="max-width: 1250px;max-height: 700px">
         <div class="col-md-4 float-start">
             <div class="card mb-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
-                <img src="images/14.png" alt="img"><br><br>
-                <h1 class="para">Laura Jhakli</h1><br><br>
-                <p style="font size : 40px" class="para"><b>Laura Jakli, an assistant professor in the Business,
-                        Government,
-                        and the
-                        International Economy Unit at Harvard Business School, is happiest refining and challenging her
-                        preconceived notions and assumptions—a common occurrence when evaluating </p></b>
+                <img src="images/17.png" alt="img"><br><br>
+                <h1 class="para">Bianca Baldridge</h1><br><br>
+                <p style="font size : 40px" class="para"><b>Before Associate Professor Bianca Baldridge was a
+                        sociologist of education researching youth work, she began as a youth worker. Her participation
+                        in community-based nonprofits as a student motivated her to follow this path. </p></b>
             </div>
         </div>
         <div class="col-md-4 float-end">
             <div class="card-body">
                 <div class="card mb-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
-                    <img src="images/15.png" alt="img"><br><br>
-                    <h1 class="para">I-Min Lee</h1><br><br>
+                    <img src="images/19.png" alt="img"><br><br>
+                    <h1 class="para">Jill Lepore</h1><br><br>
                     <p style="font size :40px" class="para"><b>
-                            I-Min Lee got used to being the odd one out at conferences when she first began researching
-                            the
-                            role of exercise in health and disease-prevention.
-
-                            “A lot of people in this area were athletes in college, or they played a sport, or were
-                            ballet
+                            Jill Lepore, David Woods Kemper’41 Professor of American History in the Faculty of Arts and
+                            Sciences, was awarded the Pulitzer Prize Monday for “We the People:A History of the U.S.
+                            Constitution.”Lepore is also a professor at Harvard Law School and a staff writer at The New
+                            Yorker.
                     </p></b>
                 </div>
             </div>
         </div>
         <div class="col-md-4 float-end">
             <div class="card-body">
-                <div class="card mb-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
-                    <img src="images/16.png" alt="img"><br><br>
-                    <h1 class="para">Patrick Slade</h1><br><br>
+                <div class="card mb-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="height: 726px;">
+                    <img src="images/18.png" alt="img"><br>
+                    <h1 class="para">Nester Davidson</h1><br>
                     <p style="font size :40px" class="para"><b>
-                            Patrick Slade got used to being the odd one out at conferences when she first began
-                            researching
-                            the
-                            role of exercise in health and disease-prevention.
-
-                            “A lot of people in this area were athletes in college, or they played a sport, or were
-                            ballet
+                            Davidson David Woods Kemper’41 Professor of American History in the Faculty of Arts and
+                            Sciences, was awarded the Pulitzer Prize Monday for “We the People:A History of the U.S.
+                            Constitution.”Lepore is also a professor at Harvard Law School and a staff writer at The New
+                            Yorker.
                     </p></b>
                 </div>
             </div>
